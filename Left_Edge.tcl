@@ -1,5 +1,5 @@
-#schedule  {id ST res}
-#resources_list {id delay}
+#schedule_list  {name ST res_id}
+#resources_list {res_id delay}
 
 proc left_edge { schedule_list resources_list } {
     set output_list [list]
